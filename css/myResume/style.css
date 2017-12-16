@@ -27,7 +27,7 @@ body{
 .top-info{
 	background-color: white;
 	border-radius: 15px 15px 0 0 ;
-	padding-top: 3%;
+	padding-top: 5%;
 	margin-top: 3%;	
 	padding-right: 8%;
 	padding-left: 8%;
@@ -39,6 +39,7 @@ body{
 	text-align: center;
 	font-size: 1.5em;
 	padding: 1%;
+	border-radius: 10px 10px 0 0;
 }
 
 .info-icon{
@@ -110,12 +111,13 @@ body{
 .item img{
 	width: 2.5%;
 	opacity: 1;
-	
+
 }
 
 .bottom{
-	height: 8px;
+	height: 10px;
 	background-color: #4682B4;
+	border-radius: 0 0 10px 10px;
 }
 
 .author{
