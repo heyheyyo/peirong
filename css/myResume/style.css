@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: 'Verdana','微軟正黑體',sans-serif;
+	vertical-align: baseline;
+}
+
+body{
+	background-color: #CCCCCC;	
+}
+
+.blue-text{
+	color: #4682B4;
+}
+
+.container{
+	padding: 3%;
+	margin-bottom: 5vw;
+}
+
+/*上半部*/
+.top-info{
+	background-color: white;
+	border-radius: 15px 15px 0 0 ;
+	padding-top: 3%;
+	margin-top: 3%;	
+	padding-right: 8%;
+	padding-left: 8%;
+}
+
+.title{
+	color: white;
+	background-color: #4682B4;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1%;
+}
+
+.info-icon{
+	color: #4682B4;
+	margin-right: 3%;
+}
+
+.my-photo{
+	width: 16%;
+	padding-top: 25%;
+	position: relative;
+	margin-top: 5%;	
+}
+
+.my-photo img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+.right-info{
+	padding-left: 3%;
+	padding-top: 3%;
+}
+
+.info-table{
+	font-size: 1.2em;
+}
+
+.name,.phone,.email{
+	color: #4682B4;
+	padding: 0;
+}
+
+.discribe{
+	padding-top: 3%;
+	text-align: justify;
+	padding-right: 0;
+}
+
+.discribe b{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*下半部*/
+
+.detail{
+	background-color: white;
+	border-radius: 0px 0px 15px 15px ;
+	padding-top: 3%;	
+	padding-right: 8%;
+	padding-left: 8%;
+	padding-bottom: 3%;	
+
+}
+
+.item{
+	font-size: 1.5em;
+	color: white;
+	background-color: #4682B4;
+	opacity: 0.7;
+	margin-bottom: 3%;
+	border-radius: 10px;
+	padding: 0.5%;
+}
+
+.item img{
+	width: 2.5%;
+	opacity: 2;
+
+}
+
+
+
+.bottom{
+	height: 8px;
+	background-color: #4682B4;
+}
+
+.author{
+	text-align: center;
+	font-size: 0.5em;
+	color: #888888;
+}
+
