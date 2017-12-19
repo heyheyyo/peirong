@@ -189,3 +189,36 @@ body{
 	color: #888888;
 }
 
+@media(max-width: 767px){
+	.container{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	/*大頭照*/
+	.my-photo{
+		width: 32%;
+		padding-top: 50%;
+		margin-left: 31.5%;	
+	}
+	/*簡介區*/
+	.info-table{
+		margin-left: 10%;
+	}
+
+	/*detail每個設定*/
+	.skill,.education,.expect-Job,.language,.graduation-project{
+		font-size: 1.4em;
+		padding: 2%;
+	}
+
+	.skill img,.education  img,.expect-Job  img,.language  img,.graduation-project img{
+		width: 4.5%;
+	}
+
+	/*下拉標誌*/
+	.detail-btn1 img, .detail-btn2 img{
+		width: 5%;
+	}
+}
+
