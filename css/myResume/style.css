@@ -201,6 +201,11 @@ body{
 		padding-top: 50%;
 		margin-left: 31.5%;	
 	}
+
+	.skill-title {    
+	    margin-bottom: 1%;
+	}
+
 	/*detail每個設定*/
 	.skill,.education,.expect-Job,.language,.graduation-project{
 		font-size: 1.4em;
