@@ -99,7 +99,7 @@ body{
 }
 
 /*detail每個設定*/
-.skill,.education,.expect-Job,.language,.graduation-project{
+.skill,.education,.expect-Job,.language,.graduation-project, .experience{
 	font-size: 1.5em;
 	background-color: #95b3cd;
 	margin-bottom: 3%;
@@ -108,11 +108,11 @@ body{
 	font-weight: bold;
 }
 
-.skill img,.education  img,.expect-Job  img,.language  img,.graduation-project img{
+.skill img,.education  img,.expect-Job  img,.language  img,.graduation-project img, .experience img{
 	width: 2.5%;
 }
 
-.skill-detail, .education-detail, .expect-job-detail, .language-detail, .project-detail{
+.skill-detail, .education-detail, .expect-job-detail, .language-detail, .project-detail, .experience-detail{
 	background-color: white;
 	font-size: 0.8em;
 	padding-top: 1.5%;
@@ -133,6 +133,11 @@ body{
 
 /*education個別設定*/
 .education-detail div{
+	margin-bottom: 2%;
+}
+
+/*experience個別設定*/
+.experience-detail div{
 	margin-bottom: 2%;
 }
 

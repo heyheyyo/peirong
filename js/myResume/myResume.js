@@ -11,8 +11,14 @@ $(document).ready(function(){
 	$('.education-top').click(function(){
 		$(this).parent().find('.education-detail').collapse('toggle');
 		$(this).parent().find('.education-detail').show();
-
 	});
+
+	$('.experience-top').click(function(){
+		$(this).parent().find('.experience-detail').collapse('toggle');
+		$(this).parent().find('.experience-detail').show();
+	});
+
+	
 
 	$('.expect-job-top').click(function(){
 		$(this).parent().find('.expect-job-detail').collapse('toggle');
